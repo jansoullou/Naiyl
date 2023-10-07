@@ -12,7 +12,7 @@ struct FavoritesScreen: BaseScreen {
     private var router: FavoritesCoordinator.Router
     
     @ObservedObject
-    var viewModel = FavoritesScreenViewModel()
+    var viewModel: FavoritesScreenViewModel
     
     var body: some View {
         Text("On \(viewModel.title) screen")
@@ -21,7 +21,7 @@ struct FavoritesScreen: BaseScreen {
 
 struct FavoritesScreen_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritesScreen()
+        FavoritesScreen(viewModel: .init())
     }
 }
 

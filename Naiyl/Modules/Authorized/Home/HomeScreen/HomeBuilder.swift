@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeBuilder: BaseBuilder {
     static func create() -> some View {
-        HomeScreen()
+        let viewModel = HomeScreenViewModel()
+        return HomeScreen(viewModel: viewModel)
     }
 }

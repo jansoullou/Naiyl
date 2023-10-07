@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FavoritesBuilder: BaseBuilder {
     static func create() -> some View {
-        FavoritesScreen()
+        let viewModel = FavoritesScreenViewModel()
+        return FavoritesScreen(viewModel: viewModel)
     }
 }

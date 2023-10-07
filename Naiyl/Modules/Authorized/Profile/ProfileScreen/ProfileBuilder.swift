@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileBuilder: BaseBuilder {
     static func create() -> some View {
-        ProfileScreen()
+        let viewModel = ProfileScreenViewModel()
+        return ProfileScreen(viewModel: viewModel)
     }
 }

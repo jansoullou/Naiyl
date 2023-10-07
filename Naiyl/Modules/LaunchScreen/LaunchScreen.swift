@@ -12,7 +12,7 @@ struct LaunchScreen: BaseScreen {
     var router: RootCoordinator.Router
     
     @ObservedObject
-    var viewModel = LaunchScreenViewModel()
+    var viewModel: LaunchScreenViewModel
     
     var body: some View {
         BaseContainer {
@@ -39,6 +39,6 @@ struct LaunchScreen: BaseScreen {
 
 struct LaunchScreen_Previews: PreviewProvider {
     static var previews: some View {
-        LaunchScreen()
+        LaunchScreen(viewModel: .init())
     }
 }

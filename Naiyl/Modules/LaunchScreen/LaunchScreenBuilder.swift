@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LaunchScreenBuilder: BaseBuilder {
     static func create() -> some View {
-        LaunchScreen()
+        let viewModel = LaunchScreenViewModel()
+        return LaunchScreen(viewModel: viewModel)
     }
 }

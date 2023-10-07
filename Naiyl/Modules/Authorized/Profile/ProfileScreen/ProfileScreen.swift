@@ -12,7 +12,7 @@ struct ProfileScreen: BaseScreen {
     private var router: ProfileCoordinator.Router
     
     @ObservedObject
-    var viewModel = ProfileScreenViewModel()
+    var viewModel: ProfileScreenViewModel
     
     var body: some View {
         Text("On \(viewModel.title) screen")
@@ -21,6 +21,6 @@ struct ProfileScreen: BaseScreen {
 
 struct ProfileScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileScreen()
+        ProfileScreen(viewModel: .init())
     }
 }

@@ -12,7 +12,7 @@ struct HomeScreen: BaseScreen {
     private var router: HomeCoordinator.Router
     
     @ObservedObject
-    var viewModel = HomeScreenViewModel()
+    var viewModel: HomeScreenViewModel
     
     var body: some View {
         Text("On \(viewModel.title) screen")
@@ -21,6 +21,6 @@ struct HomeScreen: BaseScreen {
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen()
+        HomeScreen(viewModel: .init())
     }
 }
