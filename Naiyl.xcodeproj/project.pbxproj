@@ -10,7 +10,6 @@
 		287EE43B2AD1BC2100CB9D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */; };
 		287EE43D2AD1BC2100CB9D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */; };
 		287EE4442AD1BC2200CB9D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287EE4432AD1BC2200CB9D16 /* Assets.xcassets */; };
-		287EE4472AD1BC2200CB9D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */; };
 		287EE4522AD1BC2200CB9D16 /* NaiylTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE4512AD1BC2200CB9D16 /* NaiylTests.swift */; };
 		287EE45C2AD1BC2200CB9D16 /* NaiylUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE45B2AD1BC2200CB9D16 /* NaiylUITests.swift */; };
 		287EE45E2AD1BC2200CB9D16 /* NaiylUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE45D2AD1BC2200CB9D16 /* NaiylUITestsLaunchTests.swift */; };
@@ -42,7 +41,6 @@
 		287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		287EE4432AD1BC2200CB9D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		287EE4462AD1BC2200CB9D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287EE4482AD1BC2200CB9D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287EE44D2AD1BC2200CB9D16 /* NaiylTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaiylTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287EE4512AD1BC2200CB9D16 /* NaiylTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaiylTests.swift; sourceTree = "<group>"; };
@@ -91,11 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				287EE4392AD1BC2100CB9D16 /* Naiyl */,
+				F1638C93F65A3DABD129C5F3 /* Frameworks */,
 				287EE4502AD1BC2200CB9D16 /* NaiylTests */,
 				287EE45A2AD1BC2200CB9D16 /* NaiylUITests */,
-				287EE4382AD1BC2100CB9D16 /* Products */,
 				DBE21070808AF5B27DD7C373 /* Pods */,
-				F1638C93F65A3DABD129C5F3 /* Frameworks */,
+				287EE4382AD1BC2100CB9D16 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				287EE4432AD1BC2200CB9D16 /* Assets.xcassets */,
-				287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */,
 				287EE4482AD1BC2200CB9D16 /* Info.plist */,
 			);
 			path = Resources;
@@ -287,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287EE4472AD1BC2200CB9D16 /* LaunchScreen.storyboard in Resources */,
 				287EE4442AD1BC2200CB9D16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,17 +466,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				287EE4462AD1BC2200CB9D16 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		287EE45F2AD1BC2200CB9D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -605,9 +590,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Naiyl/Info.plist;
+				INFOPLIST_FILE = Naiyl/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -635,9 +619,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Naiyl/Info.plist;
+				INFOPLIST_FILE = Naiyl/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
