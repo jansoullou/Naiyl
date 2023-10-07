@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		287EE43B2AD1BC2100CB9D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */; };
 		287EE43D2AD1BC2100CB9D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */; };
-		287EE43F2AD1BC2100CB9D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE43E2AD1BC2100CB9D16 /* ViewController.swift */; };
-		287EE4422AD1BC2100CB9D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287EE4402AD1BC2100CB9D16 /* Main.storyboard */; };
 		287EE4442AD1BC2200CB9D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287EE4432AD1BC2200CB9D16 /* Assets.xcassets */; };
 		287EE4472AD1BC2200CB9D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */; };
 		287EE4522AD1BC2200CB9D16 /* NaiylTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE4512AD1BC2200CB9D16 /* NaiylTests.swift */; };
 		287EE45C2AD1BC2200CB9D16 /* NaiylUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE45B2AD1BC2200CB9D16 /* NaiylUITests.swift */; };
 		287EE45E2AD1BC2200CB9D16 /* NaiylUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EE45D2AD1BC2200CB9D16 /* NaiylUITestsLaunchTests.swift */; };
+		6258434F33C940EE43915004 /* Pods_Naiyl_NaiylUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384CC9782E344BC83E7D7EE9 /* Pods_Naiyl_NaiylUITests.framework */; };
+		AA14342312223650C2198BF6 /* Pods_NaiylTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B032AEC9F18A0AD715DDCD4 /* Pods_NaiylTests.framework */; };
+		E9996EE2C386C866E3D9D27D /* Pods_Naiyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370AFDEAC4953C91DE67F087 /* Pods_Naiyl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA89C24323A8291C584CD15 /* Pods-Naiyl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naiyl.debug.xcconfig"; path = "Target Support Files/Pods-Naiyl/Pods-Naiyl.debug.xcconfig"; sourceTree = "<group>"; };
 		287EE4372AD1BC2100CB9D16 /* Naiyl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naiyl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		287EE43E2AD1BC2100CB9D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		287EE4412AD1BC2100CB9D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		287EE4432AD1BC2200CB9D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		287EE4462AD1BC2200CB9D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287EE4482AD1BC2200CB9D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,14 @@
 		287EE4572AD1BC2200CB9D16 /* NaiylUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaiylUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287EE45B2AD1BC2200CB9D16 /* NaiylUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaiylUITests.swift; sourceTree = "<group>"; };
 		287EE45D2AD1BC2200CB9D16 /* NaiylUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaiylUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		370AFDEAC4953C91DE67F087 /* Pods_Naiyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naiyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384CC9782E344BC83E7D7EE9 /* Pods_Naiyl_NaiylUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naiyl_NaiylUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF7AD78D6B510190C13856 /* Pods-Naiyl-NaiylUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naiyl-NaiylUITests.release.xcconfig"; path = "Target Support Files/Pods-Naiyl-NaiylUITests/Pods-Naiyl-NaiylUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56629EC72B63266A0EB4583E /* Pods-NaiylTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaiylTests.debug.xcconfig"; path = "Target Support Files/Pods-NaiylTests/Pods-NaiylTests.debug.xcconfig"; sourceTree = "<group>"; };
+		615385A44D1D7C173E626EAB /* Pods-Naiyl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naiyl.release.xcconfig"; path = "Target Support Files/Pods-Naiyl/Pods-Naiyl.release.xcconfig"; sourceTree = "<group>"; };
+		72DB2583403F8CA46F305E82 /* Pods-Naiyl-NaiylUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naiyl-NaiylUITests.debug.xcconfig"; path = "Target Support Files/Pods-Naiyl-NaiylUITests/Pods-Naiyl-NaiylUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B032AEC9F18A0AD715DDCD4 /* Pods_NaiylTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaiylTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C727FB224719D6A0CD7CD32 /* Pods-NaiylTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaiylTests.release.xcconfig"; path = "Target Support Files/Pods-NaiylTests/Pods-NaiylTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9996EE2C386C866E3D9D27D /* Pods_Naiyl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA14342312223650C2198BF6 /* Pods_NaiylTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6258434F33C940EE43915004 /* Pods_Naiyl_NaiylUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,8 @@
 				287EE4502AD1BC2200CB9D16 /* NaiylTests */,
 				287EE45A2AD1BC2200CB9D16 /* NaiylUITests */,
 				287EE4382AD1BC2100CB9D16 /* Products */,
+				DBE21070808AF5B27DD7C373 /* Pods */,
+				F1638C93F65A3DABD129C5F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +112,8 @@
 		287EE4392AD1BC2100CB9D16 /* Naiyl */ = {
 			isa = PBXGroup;
 			children = (
-				287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */,
-				287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */,
-				287EE43E2AD1BC2100CB9D16 /* ViewController.swift */,
-				287EE4402AD1BC2100CB9D16 /* Main.storyboard */,
-				287EE4432AD1BC2200CB9D16 /* Assets.xcassets */,
-				287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */,
-				287EE4482AD1BC2200CB9D16 /* Info.plist */,
+				287EE46A2AD1C01200CB9D16 /* Application */,
+				287EE46B2AD1C01900CB9D16 /* Resources */,
 			);
 			path = Naiyl;
 			sourceTree = "<group>";
@@ -127,6 +135,48 @@
 			path = NaiylUITests;
 			sourceTree = "<group>";
 		};
+		287EE46A2AD1C01200CB9D16 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				287EE43C2AD1BC2100CB9D16 /* SceneDelegate.swift */,
+				287EE43A2AD1BC2100CB9D16 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		287EE46B2AD1C01900CB9D16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				287EE4432AD1BC2200CB9D16 /* Assets.xcassets */,
+				287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */,
+				287EE4482AD1BC2200CB9D16 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBE21070808AF5B27DD7C373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CA89C24323A8291C584CD15 /* Pods-Naiyl.debug.xcconfig */,
+				615385A44D1D7C173E626EAB /* Pods-Naiyl.release.xcconfig */,
+				72DB2583403F8CA46F305E82 /* Pods-Naiyl-NaiylUITests.debug.xcconfig */,
+				39EF7AD78D6B510190C13856 /* Pods-Naiyl-NaiylUITests.release.xcconfig */,
+				56629EC72B63266A0EB4583E /* Pods-NaiylTests.debug.xcconfig */,
+				7C727FB224719D6A0CD7CD32 /* Pods-NaiylTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1638C93F65A3DABD129C5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370AFDEAC4953C91DE67F087 /* Pods_Naiyl.framework */,
+				384CC9782E344BC83E7D7EE9 /* Pods_Naiyl_NaiylUITests.framework */,
+				7B032AEC9F18A0AD715DDCD4 /* Pods_NaiylTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287EE4612AD1BC2200CB9D16 /* Build configuration list for PBXNativeTarget "Naiyl" */;
 			buildPhases = (
+				C3C9961F1062FCEEF758F7C1 /* [CP] Check Pods Manifest.lock */,
 				287EE4332AD1BC2100CB9D16 /* Sources */,
 				287EE4342AD1BC2100CB9D16 /* Frameworks */,
 				287EE4352AD1BC2100CB9D16 /* Resources */,
+				A4CBC8D9774C315F9E41305C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287EE4642AD1BC2200CB9D16 /* Build configuration list for PBXNativeTarget "NaiylTests" */;
 			buildPhases = (
+				99D952C872B19C5040569317 /* [CP] Check Pods Manifest.lock */,
 				287EE4492AD1BC2200CB9D16 /* Sources */,
 				287EE44A2AD1BC2200CB9D16 /* Frameworks */,
 				287EE44B2AD1BC2200CB9D16 /* Resources */,
@@ -169,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287EE4672AD1BC2200CB9D16 /* Build configuration list for PBXNativeTarget "NaiylUITests" */;
 			buildPhases = (
+				8BEA228437BD7F02CED49A0F /* [CP] Check Pods Manifest.lock */,
 				287EE4532AD1BC2200CB9D16 /* Sources */,
 				287EE4542AD1BC2200CB9D16 /* Frameworks */,
 				287EE4552AD1BC2200CB9D16 /* Resources */,
+				773E4E9EAE7FFD9C0B1C9EFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +262,7 @@
 				};
 			};
 			buildConfigurationList = 287EE4322AD1BC2100CB9D16 /* Build configuration list for PBXProject "Naiyl" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +288,6 @@
 			files = (
 				287EE4472AD1BC2200CB9D16 /* LaunchScreen.storyboard in Resources */,
 				287EE4442AD1BC2200CB9D16 /* Assets.xcassets in Resources */,
-				287EE4422AD1BC2100CB9D16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +307,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		773E4E9EAE7FFD9C0B1C9EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naiyl-NaiylUITests/Pods-Naiyl-NaiylUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naiyl-NaiylUITests/Pods-Naiyl-NaiylUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naiyl-NaiylUITests/Pods-Naiyl-NaiylUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEA228437BD7F02CED49A0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Naiyl-NaiylUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D952C872B19C5040569317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaiylTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CBC8D9774C315F9E41305C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naiyl/Pods-Naiyl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naiyl/Pods-Naiyl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naiyl/Pods-Naiyl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C9961F1062FCEEF758F7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Naiyl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		287EE4332AD1BC2100CB9D16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287EE43F2AD1BC2100CB9D16 /* ViewController.swift in Sources */,
 				287EE43B2AD1BC2100CB9D16 /* AppDelegate.swift in Sources */,
 				287EE43D2AD1BC2100CB9D16 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		287EE4402AD1BC2100CB9D16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				287EE4412AD1BC2100CB9D16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		287EE4452AD1BC2200CB9D16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +580,7 @@
 		};
 		287EE4622AD1BC2200CB9D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA89C24323A8291C584CD15 /* Pods-Naiyl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,7 +590,6 @@
 				INFOPLIST_FILE = Naiyl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +607,7 @@
 		};
 		287EE4632AD1BC2200CB9D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615385A44D1D7C173E626EAB /* Pods-Naiyl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,7 +617,6 @@
 				INFOPLIST_FILE = Naiyl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +634,7 @@
 		};
 		287EE4652AD1BC2200CB9D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56629EC72B63266A0EB4583E /* Pods-NaiylTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +654,7 @@
 		};
 		287EE4662AD1BC2200CB9D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C727FB224719D6A0CD7CD32 /* Pods-NaiylTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +674,7 @@
 		};
 		287EE4682AD1BC2200CB9D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DB2583403F8CA46F305E82 /* Pods-Naiyl-NaiylUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +692,7 @@
 		};
 		287EE4692AD1BC2200CB9D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EF7AD78D6B510190C13856 /* Pods-Naiyl-NaiylUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
